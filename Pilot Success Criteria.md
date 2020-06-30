@@ -1,0 +1,69 @@
+*AVS 2.0 Preview -- Disclaimer*
+
+***Previews are provided "as-is", "with all faults", and "as available", and are excluded from the service level agreements and limited warranty**. Previews may not be covered by customer support. Previews may be subject to reduced or different security, compliance and privacy commitments, as further explained in the [Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=131004&clcid=0x409), [Microsoft Azure Trust Center](https://azure.microsoft.com/en-us/support/trust-center/), the [Online Services Terms](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31), and any additional notices provided with the Preview. Certain named Previews may also be subject to additional terms set forth below, if any. We may change or discontinue Previews at any time without notice. We also may choose not to release a Preview into "General Availability".*
+
+## Pilot Success Criteria
+
+In this section, define what tests are going to be run and what the outcome is expected to be.
+
+ 
+
+### Fundamental
+
+Deploy SDDC
+
+Create Virtual Network
+
+Create Virtual Network
+
+Create Jump Box
+
+Create Virtual Network Gateway
+
+Connect ExpressRoute/Global Reach
+
+Log into NSX Manager and vCenter
+
+### Primary
+
+Create DHCP Server
+
+Create Network Segments
+
+Scale (add/delete nodes)
+
+HCX Setup
+
+Create VMs
+
+Enable Internet
+
+VM Migration from On-Prem to Cloud
+
+### Customer Specific
+
+##
+
+##
+
+##
+
+##
+
+##
+
+## Azure Information
+
+**Subscription Name and Subscription ID for AVS**
+
+This is the subscription which AVS will be deployed, can be a new or existing subscription, CANNOT be Dev/Test Subscription
+
+##
+
+**Azure Admin**
+
+Name and contact of the Admin who will enable the service from marketplace.
+
+Contributor is the minimum role required to [*register the AVS resource provider*](https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-create-private-cloud#register-the-resource-provider)
+
+##
